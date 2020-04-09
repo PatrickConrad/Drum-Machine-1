@@ -1,0 +1,318 @@
+button{
+  margin:0px;
+  padding:0px;
+  border:none;
+}
+button:focus {
+  outline: none;
+}
+
+.drumMachine {
+  display:flex;
+  width: 100vw;
+}
+
+.drumKitsSide{
+  width: 15vw;
+  height: 420px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  background-color: white;
+
+}
+
+.drumKitsSide h5{
+  text-align: center;
+  
+}
+
+.drumSet {
+  text-align: center;
+  margin-left: 9vw;
+  margin-right: 12vw;
+  margin-bottom: 40px;
+ padding-top: 20px;
+  width: 60vw;
+  height: 400px;
+  
+  
+  background-color: white;
+ 
+}
+
+
+
+.cymbalDrums{
+  
+  height: 60px;
+  display: flex;
+  
+}
+.CymbleButton{
+  
+  width:9vw;
+  height:60px; 
+}
+
+
+
+#cymbal-button-one {
+  margin-top:20px;
+  margin-left: 8.5vw;
+  margin-right: 4vw;
+
+}
+
+
+#cymbal-one img{
+  height: 60px;
+  width: 9vw
+}
+
+
+.HighHatButton{
+  width:9vw;
+  height:60px; 
+}
+
+/* #highHat {
+  margin-right: 4vw;
+  margin-left: 4vw;
+
+} */
+#high-hat-button {
+  margin-right: 4vw;
+  margin-left: 4vw;
+
+}
+
+
+#highHat img{
+  height: 60px;
+  width: 9vw
+}
+
+/* #cymbal-three {
+  
+
+} */
+#cymbal-button-three {
+  margin-top:20px;
+  margin-right: 8.5vw;
+  margin-left: 4vw;
+
+}
+
+
+#cymbal-three img{
+  height: 60px;
+  width: 9vw
+}
+
+.snareDrums{
+  height: 60px;
+  display: flex;
+ }
+
+ 
+.SnareButton{
+  width:10vw;
+  height:60px; 
+}
+
+/* #snare-one {
+  
+
+} */
+
+#snare-button-one{
+  margin-left: 18vw;
+  margin-right: 2vw;
+}
+#snare-one img{
+  height: 60px;
+  width: 10vw
+}
+
+/* #snare-two {
+ 
+
+} */
+
+#snare-button-two{
+  margin-right: 18vw;
+  margin-left: 2vw;
+}
+
+
+#snare-two img{
+  height: 60px;
+  width: 10vw
+}
+
+
+.midDrums {
+  
+  display: flex;
+  margin-left:auto
+}
+
+.TomButtons{
+  width:8vw;
+  height:80px; 
+}
+
+/* #midDrumOne {
+  margin-left: 13vw;
+  margin-right: .25vw;
+} */
+
+#TomEndLeft-button{
+  margin-top: 20px;
+  margin-left: 13vw;
+  margin-right: .25vw;
+}
+
+#midDrumOne img{
+  height: 80px;
+  width: 8vw;
+}
+
+
+
+/* #midDrumTwo {
+  margin-right: .25vw;
+  margin-left: .25vw;
+} */
+
+#TomMidLeft-button{
+  margin-right: .25vw;
+  margin-left: .25vw;
+}
+
+#midDrumTwo img{
+  height: 80px;
+  width: 8vw;
+}
+
+
+/* #midDrumThree {
+  margin-left: .25vw;
+  margin-right: .25vw;
+} */
+#TomMidRight-button{
+  margin-right: .25vw;
+  margin-left: .25vw;
+}
+
+#midDrumThree img{
+  height: 80px;
+  width: 8vw;
+}
+
+
+
+/* #midDrumFour {
+  margin-right: 13vw;
+  margin-left: .25vw;
+} */
+#TomEndRight-button{
+  margin-top: 20px;
+
+  margin-right: 13vw;
+  margin-left: .25vw;
+}
+
+#midDrumFour img{
+  height: 80px;
+  width: 8vw;
+}
+
+.baseDrum{
+  height:150px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+/* .BaseButton {
+  
+} */
+
+/* #baseDrumPic {
+  margin-left: 18vw;
+  margin-right: 20vw;
+} */
+
+#base-button {
+  width: 22vw;
+  height: 150px;
+  margin-left: 18vw;
+  margin-right: 20vw;
+}
+
+#baseDrumPic img{
+  width: 22vw;
+  height: 150px;
+}
+
+
+
+
+.navBar {
+  
+  padding-right: 10vw;
+  padding-left: 10vw;
+  display: flex;
+  width: 80vw
+}
+
+.navLink {
+  border: 1px lightblue solid;
+  background-color: lightgray;
+  width: 20vw;
+  text-align: center;
+  padding-top: 20px;
+  height: 50px;
+  color: olive;
+}
+
+.pageHeading {
+  text-align: center;
+}
+
+.seletor {
+  width: 13vw;
+  margin: 1vw
+}
+
+.keydisplay {
+  display: flex;
+
+}
+
+.PressedKey {
+  width: 8vw;
+  height: 10px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.keyBoard {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  transform: translate(-50%, -50%);
+}
+
+
+.SnareAnime {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}

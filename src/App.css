@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+#drum-machine{
+    margin-top:5px;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* #drum-box {
+    width: 60vw;
+    margin-left: 15.5vw;
+    margin-right: 15.5vw;
+    background-color: rgb(34, 30, 30);
+    padding-left: 4.5vw;
+    padding-right: 4.5vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+
+#drum-box {
+    height: 70vh;
+    width: 60vw;
+    background-color: rgb(34, 30, 30);    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    margin-bottom: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+.drum-pad {
+    border: 2px rgb(255, 255, 255) solid;
+    height: 20vh;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+
+    cursor: pointer;
+    background-color: rgb(56, 47, 77);
+    
+}
+
+#displayBox {
+    width: 60vw;
+    background-color: rgb(34, 30, 30); ;
+    height: 17vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-top: 35px
+
+}
+
+#display {
+    width: 30vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: lightblue;
+    color: black;
+    height: 4vh;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 8px;
+
+}
+
+/* .drum-pad {
+    border: 2px rgb(255, 255, 255) solid;
+    text-align: center;
+    height: 100px;
+    width: 15vw;
+    margin: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+    cursor: pointer;
+    background-color: rgb(56, 47, 77);
+    position: relative;
+} */
+
+/* .pressKey {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(40, 155, 30);
+} */
+
+
+.row{
+    display: flex;
+    width: 60vw
+}
+
+.navBar {
+    margin-top: 50px;
+    display: flex;
+    width: 55vw;
+    background-color: lightgray;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 60px;
   }
-}
+  
+  .navLink {
+    border: 1px lightblue solid;
+    background-color: lightgray;
+    width: 14vw;
+    text-align: center;
+    padding-top: 15px;
+    height: 35px;
+    margin-top: 5px;
+    color: olive;
+    margin-left: .5vw;
+    margin-right: .5vw;
+   
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  .pageHeading {
+    text-align: center;
   }
-}
+  
